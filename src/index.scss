@@ -1,0 +1,11 @@
+@import 'var.scss';
+.title {
+    // font-size: 34px;
+    line-height: 50px;
+    text-align: center;
+    color: red;
+    @include ellipsis;
+    .color{
+        color: green;
+    }
+}

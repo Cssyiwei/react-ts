@@ -1,0 +1,21 @@
+@import 'common.scss';
+.warpper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 1.2rem;
+    // background: #000;
+    // width: 100%;
+    display: flex;
+    box-shadow: 0 2px 2px 2px #cccccc;
+    // justify-content: space-around;
+    // align-items: center;
+}
+.item {
+    height: 100%;
+    width: 25%;
+    // background: aquamarine;
+    line-height: 1.2rem;
+    text-align: center;
+}

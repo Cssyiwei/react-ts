@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no" name=viewport><meta http-equiv=X-UA-Compatible content="ie=edge"><title>Document</title><link href=css/vendor.css rel=stylesheet><link href=css/app.css rel=stylesheet></head><body><div id=app></div><script>function resetWidth() {
+                // 兼容ie浏览器 document.body.clientWidth
+                var baseWidth = document.documentElement.clientWidth || document.body.clientWidth;
+                document.documentElement.style.fontSize = (baseWidth / 375) * 100 + "px";
+            }
+            resetWidth();
+            window.addEventListener("resize", function () {
+                resetWidth();
+            });</script><script src=js/manifest.js></script><script src=js/vendor.js></script><script src=js/app.js></script></body></html>
